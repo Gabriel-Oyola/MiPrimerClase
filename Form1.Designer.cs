@@ -35,6 +35,12 @@ namespace MiPrimerClase
             this.label2 = new System.Windows.Forms.Label();
             this.lblPersonas = new System.Windows.Forms.Label();
             this.btMostrar = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtMateria = new System.Windows.Forms.TextBox();
+            this.txtAño = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btInscribir = new System.Windows.Forms.Button();
+            this.lblMostrarIns = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -73,7 +79,7 @@ namespace MiPrimerClase
             // 
             this.lblPersonas.AutoSize = true;
             this.lblPersonas.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPersonas.Location = new System.Drawing.Point(12, 105);
+            this.lblPersonas.Location = new System.Drawing.Point(12, 61);
             this.lblPersonas.Name = "lblPersonas";
             this.lblPersonas.Size = new System.Drawing.Size(0, 31);
             this.lblPersonas.TabIndex = 4;
@@ -88,11 +94,68 @@ namespace MiPrimerClase
             this.btMostrar.UseVisualStyleBackColor = true;
             this.btMostrar.Click += new System.EventHandler(this.btMostrar_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(15, 122);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(42, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Materia";
+            // 
+            // txtMateria
+            // 
+            this.txtMateria.Location = new System.Drawing.Point(15, 138);
+            this.txtMateria.Name = "txtMateria";
+            this.txtMateria.Size = new System.Drawing.Size(100, 20);
+            this.txtMateria.TabIndex = 7;
+            // 
+            // txtAño
+            // 
+            this.txtAño.Location = new System.Drawing.Point(144, 138);
+            this.txtAño.Name = "txtAño";
+            this.txtAño.Size = new System.Drawing.Size(100, 20);
+            this.txtAño.TabIndex = 9;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(141, 122);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(26, 13);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Año";
+            // 
+            // btInscribir
+            // 
+            this.btInscribir.Location = new System.Drawing.Point(261, 138);
+            this.btInscribir.Name = "btInscribir";
+            this.btInscribir.Size = new System.Drawing.Size(75, 23);
+            this.btInscribir.TabIndex = 10;
+            this.btInscribir.Text = "Inscribir";
+            this.btInscribir.UseVisualStyleBackColor = true;
+            this.btInscribir.Click += new System.EventHandler(this.btInscribir_Click);
+            // 
+            // lblMostrarIns
+            // 
+            this.lblMostrarIns.AutoSize = true;
+            this.lblMostrarIns.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostrarIns.Location = new System.Drawing.Point(12, 187);
+            this.lblMostrarIns.Name = "lblMostrarIns";
+            this.lblMostrarIns.Size = new System.Drawing.Size(0, 31);
+            this.lblMostrarIns.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(399, 168);
+            this.ClientSize = new System.Drawing.Size(399, 294);
+            this.Controls.Add(this.lblMostrarIns);
+            this.Controls.Add(this.btInscribir);
+            this.Controls.Add(this.txtAño);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.txtMateria);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.btMostrar);
             this.Controls.Add(this.lblPersonas);
             this.Controls.Add(this.txtApellido);
@@ -114,6 +177,12 @@ namespace MiPrimerClase
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblPersonas;
         private System.Windows.Forms.Button btMostrar;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtMateria;
+        private System.Windows.Forms.TextBox txtAño;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btInscribir;
+        private System.Windows.Forms.Label lblMostrarIns;
     }
 }
 
